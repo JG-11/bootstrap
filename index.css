@@ -1,3 +1,11 @@
+.main-text {
+    color: #F0F0F0 !important;
+}
+
+#header img {
+    width: 50px;
+}
+
 #footer {
     background: linear-gradient(90deg, #14213d, #1d3557 25%, #264653);
 }
