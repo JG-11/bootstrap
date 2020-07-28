@@ -40,6 +40,15 @@
     height: 100%;
 }
 
+#about {
+    color: white;
+    background-color: #343a40;
+}
+
+#about img {
+    max-width: 100%;
+}
+
 #footer {
     background: linear-gradient(90deg, #14213d, #1d3557 25%, #264653);
 }
