@@ -6,6 +6,12 @@
     width: 50px;
 }
 
+#main .carousel-inner img {
+    max-height: 75vh;
+    object-fit: cover;
+    filter: grayscale();
+}
+
 #footer {
     background: linear-gradient(90deg, #14213d, #1d3557 25%, #264653);
 }
