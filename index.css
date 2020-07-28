@@ -1,21 +1,17 @@
-.text-main {
-    color: #F0F0F0 !important;
-}
-
 .btn-main {
     color: black;
-    background-color: #F0F0F0;
+    background-color: white;
 }
 
 .btn-main:hover {
-    background-color: white;
+    background-color: #979dac;
 }
 
 #header img {
     width: 50px;
 }
 
-#main .carousel-inner img {
+#about .carousel-inner img {
     max-height: 75vh;
     object-fit: cover;
     filter: grayscale();
@@ -40,12 +36,12 @@
     height: 100%;
 }
 
-#about {
+#silicon-valley {
     color: white;
     background-color: #343a40;
 }
 
-#about img {
+#silicon-valley img {
     max-width: 100%;
 }
 

@@ -11,10 +11,10 @@
 
     <title>Genaro Almaraz</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="76">
     <!-- Header -->
     <header>
-        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="https://res.cloudinary.com/dycgim2yx/image/upload/v1595896571/GitHub/Bootstrap/logo_oxgsyh.png" title="Icon by Icons8: https://icons8.com"/>
@@ -23,19 +23,19 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbar">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Acerca de</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Coding Interview</a>
+                      <a class="nav-link" href="#youtube">YouTube</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Open Source</a>
+                        <a class="nav-link" href="#silicon-valley">Silicon Valley</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-main" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -44,8 +44,8 @@
     </header>
     <!-- /Header -->
 
-    <!-- Main -->
-    <main id="main">
+    <!-- About -->
+    <main id="about">
         <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -63,9 +63,8 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 offset-md-6 text-center text-md-right">
                             <h1>Genaro Almaraz</h1>
-                            <p class="d-none d-md-block">Joven de 20 años, Licenciado en Ciencias Computacionales. Full stack developer, fundador,
-                            apasionado por las finanzas, la inteligencia artificial...</p>
-                            <a href="https://www.youtube.com/channel/UCBPY2M3ROE6RHqiL09GZgjA" target="_blank" class="btn btn-outline-light">Algoritmos</a>
+                            <p class="d-none d-md-block">20-year-old young with a Bachelor degree in Computer Science. Full stack developer, going deep into startups, finance, artificial intelligence...</p>
+                            <a href="https://www.youtube.com/channel/UCBPY2M3ROE6RHqiL09GZgjA" target="_blank" class="btn btn-outline-light">YouTube</a>
                             <button type="button" class="btn btn-main">GitHub</button>
                         </div>
                     </div>
@@ -73,10 +72,10 @@
             </div>
         </div>
     </main>
-    <!-- /Main -->
+    <!-- /About -->
 
-    <!-- Cards -->
-    <section id="cards">
+    <!-- YouTube -->
+    <section id="youtube">
       <div class="container mt-4 mb-4">
         <div class="row">
           <div class="col text-center text-uppercase">
@@ -132,10 +131,10 @@
         </div>
       </div>
     </section>
-    <!-- /Cards -->
+    <!-- /YouTube -->
 
-    <!-- About -->
-    <section id="about">
+    <!-- Silicon Valley -->
+    <section id="silicon-valley">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-lg-6 px-0">
@@ -150,7 +149,7 @@
         </div>
       </div>
     </section>
-    <!-- /About -->
+    <!-- /Silicon Valley -->
 
     <!-- Contact -->
     <section id="contact" class="py-4">
@@ -201,13 +200,13 @@
         <div class="container py-4">
             <div class="row text-center">
                 <div class="col-12 col-md">
-                    <a href="#">Canal de YouTube</a>
+                    <a href="https://www.youtube.com/channel/UCBPY2M3ROE6RHqiL09GZgjA">YouTube</a>
                 </div>
                 <div class="col-12 col-md">
-                    <a href="#">GitHub</a>
+                    <a href="https://github.com/JG-11">GitHub</a>
                 </div>
                 <div class="col-12 col-md">
-                    <a href="#">Empresa</a>
+                    <a href="https://kronos.company/">Company</a>
                 </div>
             </div>
         </div>
