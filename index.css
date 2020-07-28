@@ -1,5 +1,14 @@
-.main-text {
+.text-main {
     color: #F0F0F0 !important;
+}
+
+.btn-main {
+    color: black;
+    background-color: #F0F0F0;
+}
+
+.btn-main:hover {
+    background-color: white;
 }
 
 #header img {
