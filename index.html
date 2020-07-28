@@ -29,6 +29,9 @@
                       <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="#" data-toggle="modal" data-target="#githubModal">Open Source</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="#youtube">YouTube</a>
                     </li>
                     <li class="nav-item">
@@ -65,7 +68,7 @@
                             <h1>Genaro Almaraz</h1>
                             <p class="d-none d-md-block">20-year-old young with a Bachelor degree in Computer Science. Full stack developer, going deep into startups, finance, artificial intelligence...</p>
                             <a href="https://www.youtube.com/channel/UCBPY2M3ROE6RHqiL09GZgjA" target="_blank" class="btn btn-outline-light">YouTube</a>
-                            <button type="button" class="btn btn-main">GitHub</button>
+                            <button type="button" class="btn btn-main" data-toggle="modal" data-target="#githubModal">GitHub</button>
                         </div>
                     </div>
                 </div>
@@ -212,6 +215,31 @@
         </div>
     </footer>
     <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="githubModal" tabindex="-1" role="dialog" aria-labelledby="githubModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="githubModalTitle">Awesome!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Just click on the blue button below and you'll see great open source projects from me!
+          </div>
+          <div class="alert alert-info" role="alert">
+            Don't forget to star them!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="https://github.com/JG-11" target="_blank" class="btn btn-info">Watch projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
